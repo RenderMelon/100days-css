@@ -1,0 +1,43 @@
+/* 100dayscss.com Template */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: linear-gradient(to bottom right, #4BB33B, #5FFF7B);
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+}
+
+/* My code */
+.input-field {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 2px 5px rgb(166, 238, 164);
+  color: #333;
+}
+
+*:focus {
+  outline: none;
+}
